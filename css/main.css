@@ -176,7 +176,7 @@ textarea {
     justify-content: center;
     display: flex;
   }
-   /* ****************** Mobile Styles - Homepage ****************** */
+   /* ****************** Homepage - Mobile ****************** */
    
    /*** Hero ***/
 
@@ -221,6 +221,7 @@ textarea {
 
    .features p {
      margin: 0;
+     text-align: center;
    }
 
    /*** Reviews ***/
@@ -240,7 +241,7 @@ textarea {
      margin: 20px 0;
    }
 
-   /******************** ABOUT page ********************/
+   /* ==================== About-page - Mobile ==================== */
 
    /*** Mission Styles ***/
 
@@ -262,7 +263,7 @@ textarea {
      margin: 0;
    }
 
-   /*** FAQ Styles ***/
+   /* ==================== FAQ-page - Mobile ==================== */
 
    .faq {
      display: flex;
@@ -378,7 +379,7 @@ textarea {
     margin: 100px 0;
   }
 
-  /*** Header ***/
+  /*********** Header - Tablet ***********/
 
   header {
     padding: 33px 0;
@@ -402,10 +403,10 @@ textarea {
     display: none;
   }
 
-  /*** Hero ***/
+  /*********** Hero - Tablet ***********/
 
 
-  /*** Aside ***/
+  /*********** Aside - Tablet ***********/
 
   aside .content-wrapper {
     margin: 50px 0;
@@ -420,7 +421,7 @@ textarea {
     margin: 0;
   }
 
-  /*** Features ***/
+  /*********** Features - Tablet ***********/
 
   .features article {
     display: flex;
@@ -433,7 +434,8 @@ textarea {
   .features .features-item-description {
     width: 50%;
   }
-  /*** Reviews ***/
+
+  /*********** Reviews - Tablet ***********/
 
   .reviews article {
     display: flex; 
@@ -443,7 +445,7 @@ textarea {
   .reviews article div {
     width: 50%;
   }
-  /*** Footer ***/
+  /*********** Footer - Tablet ***********/
 
   footer .content-wrapper {
     width: 65%;
@@ -464,7 +466,7 @@ textarea {
     width: 100%;
   }
 
-  /*********** ABOUT - Tablet **********/
+  /* ==================== About-page - Tablet ==================== */
 
   .mission-content {
     display: flex;
@@ -487,7 +489,7 @@ textarea {
     align-items: flex-start;
   }
 
-  /*********** FAQ - Tablet **********/
+  /* ==================== FAQ-page - Tablet ==================== */
 
   .faq .content-wrapper {
     justify-content: space-between;
@@ -505,7 +507,76 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
+
+  /*********** Header - Desktop ***********/
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  header nav ul {
+    width: 50%;
+  }
+
+  /*********** Hero - Desktop ***********/
+
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /*********** Aside - Desktop ***********/
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /*********** Features - Desktop ***********/
+
+  .features h2 {
+    width: 80%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  .features p {
+    text-align: center;
+  }
+
+  /*********** Reviews - Desktop ***********/
+
+  .reviews article div {
+    width: 40%;
+  }
+
+  /* ==================== About-page - Desktop ==================== */
+
+  .mission h2, 
+  .contact-section .content-wrapper h2 {
+    width: 100%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    margin-bottom: 30px;
+  }
+
+  /* ==================== FAQ-page - Desktop ==================== */
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
 }
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
