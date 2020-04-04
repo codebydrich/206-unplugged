@@ -167,6 +167,7 @@ textarea {
 
    header {
      padding: 15px 0;
+     background-color: #1F2321;
    }
 
    header .content-wrapper {
@@ -182,13 +183,14 @@ textarea {
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
-     width: 60%;
+     width: 50%;
    }
 
    header nav ul {
      width: 100%;
      display: flex;
      justify-content: space-around;
+     padding: 0;
    }
 
    .header-divider {
@@ -199,8 +201,10 @@ textarea {
    
    /*** Footer Styles ***/
 
-   footer {
+  footer {
     flex-direction: column;
+    background-color: #1F2321;
+    color: #e2e3ed;
   }
 
   footer .content-wrapper {
@@ -248,6 +252,32 @@ textarea {
      flex-flow: row wrap;
    }
 
+   aside .form {
+     margin-top: 30px;
+   }
+
+   input[type=text] {
+     box-sizing: border-box;
+     width: 100%;
+     color: #2a423a;
+     font-style: italic;
+     padding: 1em;
+   }
+
+   input[type=button] {
+     width: 100%;
+     padding: 20px 0;
+     margin-top: 20px;
+     background-color: #2a423a;
+     font-family: 'Poppins', Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     font-size: 1.125em;
+     color: #e2e3ed;
+     border: none;
+     text-align: center;
+     text-transform: uppercase;
+   }
+
    /*** Features ***/
 
    .features {
@@ -283,6 +313,8 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background-color: #294139;
+     color: #e2e3ed;
    }
 
    .reviews h2 {
