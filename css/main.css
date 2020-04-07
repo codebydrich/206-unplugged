@@ -102,6 +102,7 @@ textarea {
 
    html {
      font-size: 16px;
+     color: #e2e3ed;
    }
 
    body {
@@ -115,12 +116,13 @@ textarea {
    }
 
    a {
-     color: #e2e3ed;
      text-decoration: none;
+     color: #e2e3ed;
    }
 
    h1 {
      font-size: 2.25em;
+     line-height: 1.1em;
    }
 
    h2 {
@@ -156,6 +158,14 @@ textarea {
      margin: 50px 0;
    }
 
+   img {
+     width: 100%;
+   }
+
+   figure {
+     margin: 0;
+   }
+
    /******************** Base Header - Footer Styles ********************/
 
    header, footer {
@@ -168,6 +178,14 @@ textarea {
    header {
      padding: 15px 0;
      background-color: #1F2321;
+   }
+
+   header figure {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
 
    header .content-wrapper {
@@ -204,7 +222,6 @@ textarea {
   footer {
     flex-direction: column;
     background-color: #1F2321;
-    color: #e2e3ed;
   }
 
   footer .content-wrapper {
@@ -241,7 +258,11 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url('../img/hero-img.jpg') center no-repeat #333;
+     background-size: cover;
+     min-height: 500px;
    }
+
 
    /*** Aside ***/
 
@@ -250,6 +271,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #517157;
    }
 
    aside .form {
@@ -272,7 +294,6 @@ textarea {
      font-family: 'Poppins', Helvetica, Arial, sans-serif;
      font-weight: 500;
      font-size: 1.125em;
-     color: #e2e3ed;
      border: none;
      text-align: center;
      text-transform: uppercase;
@@ -284,6 +305,8 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url('../img/features-img.jpg') center no-repeat #333;
+     background-size: cover;
    }
 
    .features h2 {
@@ -314,7 +337,6 @@ textarea {
      justify-content: center;
      flex-flow: row wrap;
      background-color: #294139;
-     color: #e2e3ed;
    }
 
    .reviews h2 {
@@ -471,6 +493,10 @@ textarea {
     justify-content: space-around;
   }
 
+  header figure {
+    width: 40%;
+  }
+
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
@@ -489,6 +515,15 @@ textarea {
   }
 
   /*********** Hero - Tablet ***********/
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1em;
+  }
 
 
   /*********** Aside - Tablet ***********/
