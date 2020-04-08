@@ -318,6 +318,11 @@ textarea {
      background-size: cover;
    }
 
+   .features i {
+     font-size: 5em;
+     margin-bottom: 40px;
+   }
+
    .features h2 {
      margin-bottom: 60px;
    }
