@@ -123,17 +123,22 @@ textarea {
    h1 {
      font-size: 2.25em;
      line-height: 1.1em;
+     font-weight: normal;
+     margin: 0;
    }
 
    h2 {
-     font-size: 1.875em;
+     font-size: 2em;
      font-family: 'Poppins', sans-serif;
+     font-weight: normal;
+     line-height: 1em;
    }
 
    h3, h4 {
      font-family: 'Poppins', sans-serif;
-     font-size: 1.1875em;
+     font-size: 1.5em;
      margin: 20px 0;
+     line-height: 1em;
    }
 
    p {
@@ -142,11 +147,11 @@ textarea {
    }
 
    img {
-     width: 88.88%
+     width: 100%;
    }
 
    figure {
-     width: 100%;
+     margin: 0;
    }
 
    address {
@@ -227,6 +232,10 @@ textarea {
   footer .content-wrapper {
     width: 55%;
     margin: 50px 0;
+  }
+
+  footer .footer-content {
+    text-align: center;
   }
 
   footer .contact {
@@ -494,7 +503,7 @@ textarea {
   }
 
   header figure {
-    width: 40%;
+    width: 30%;
   }
 
   header .content-wrapper {
@@ -560,11 +569,23 @@ textarea {
   .reviews article {
     display: flex; 
     justify-content: space-between;
+    flex-flow: row wrap;
   }
 
+  .reviews article figure,
   .reviews article div {
-    width: 50%;
+    width: 49%;
   }
+
+  .reviews h2 {
+    width: 85%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+  }
+
   /*********** Footer - Tablet ***********/
 
   footer .content-wrapper {
@@ -632,6 +653,10 @@ textarea {
 
   .content-wrapper {
     max-width: 960px;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav ul {
