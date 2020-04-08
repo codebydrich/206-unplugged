@@ -362,6 +362,7 @@ textarea {
    /*** Mission Styles ***/
 
    .mission {
+     background-color: #517157;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -369,6 +370,7 @@ textarea {
    }
 
    .contact-section {
+     background-color: #294139;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -377,6 +379,22 @@ textarea {
 
    .contact-content p {
      margin: 0;
+   }
+
+   .map figure {
+     position: relative;
+     padding-bottom: 80%;
+     height: 0;
+     width: 100%;
+     overflow: hidden;
+   }
+
+   .map iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
    }
 
    /* ==================== FAQ-page - Mobile ==================== */
