@@ -581,7 +581,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     flex-basis: 50%;
   }
 
