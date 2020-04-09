@@ -113,6 +113,8 @@ textarea {
    ul, ol {
     list-style: none;
     font-size: 1.125em;
+    margin: 0;
+    font-weight: bold;
    }
 
    a {
@@ -132,13 +134,15 @@ textarea {
      font-family: 'Poppins', sans-serif;
      font-weight: normal;
      line-height: 1em;
+     margin: 0;
    }
 
    h3, h4 {
      font-family: 'Poppins', sans-serif;
-     font-size: 1.5em;
-     margin: 20px 0;
-     line-height: 1em;
+     font-size: 1.25em;
+     line-height: 1.5em;
+     font-weight: normal;
+     margin: 0;
    }
 
    p {
@@ -220,6 +224,7 @@ textarea {
      width: 100%;
      height: 1px;
      margin: 10px 0 20px 0;
+     border-top: 1px solid gray;
    }
    
    /*** Footer Styles ***/
@@ -295,6 +300,10 @@ textarea {
      margin-top: 30px;
    }
 
+   aside .form h3 {
+     margin-bottom: 20px;
+   }
+
    input[type=text] {
      box-sizing: border-box;
      width: 100%;
@@ -314,6 +323,7 @@ textarea {
      border: none;
      text-align: center;
      text-transform: uppercase;
+     color: #e2e3ed;
    }
 
    /*** Features ***/
@@ -366,7 +376,7 @@ textarea {
    }
 
    .reviews h3 {
-     width: 55%;
+     width: 60%;
      margin: 20px 0;
    }
 
@@ -521,6 +531,11 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.5em;
+  }
 
   .content-wrapper {
     max-width: 640px;
